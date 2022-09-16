@@ -10,6 +10,7 @@
 
 html {
 	font-size: 20px;
+	scroll-behavior:smooth;
 }
 
 .material-symbols-outlined {
@@ -313,7 +314,7 @@ footer .container {
 	top: 1rem;
 }
 
-.guide-links li:nth-childe(2) {
+.guide-links li:nth-child(2) {
 	padding: 0 .3rem;
 }
 
@@ -323,7 +324,7 @@ footer .container {
 	margin: 0 0 2rem 0;
 	text-align : center;
 	overflow: hidden;
-	
+
 }
 
 .article-links li {
