@@ -12,6 +12,9 @@ html {
 	font-size: 20px;
 	scroll-behavior:smooth;
 }
+.construction{
+	text-align:center;
+}
 
 .material-symbols-outlined {
 	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
@@ -439,4 +442,48 @@ footer .container {
 .des-kev p:last-child {
 	font-size: 1rem;
 	text-align: left;
+}
+/**********************login.html************************/
+
+
+.login-table,.find-table{
+	width:900px;
+
+	background-color: var(--fourth-color);
+}
+.login-table th,.find-table th{
+	color:white;
+	text-align: left;
+}
+.login-table th{
+	width:40%;
+	text-align: left;
+	text-indent: 150px;
+	font-size:1.2rem;
+}
+
+.login-table td input{
+	font-size:1.2rem;
+	width:300px;
+	height:40px;
+}
+.find-table th{
+	text-indent: 80px;
+	font-size:0.875rem;
+}
+.find-table td{
+	vertical-align: middle;
+}
+.login-table th,.login-table td, .find-table th,.find-table td{
+	padding: 1.5rem 1rem;
+}
+
+
+#login-btn {
+	font-weight:900;
+	width:150px;
+	height:80px;
+	background-color: var(--primary-color);
+	border:1px solid transparent;
+	font-size: 1rem;
 }
