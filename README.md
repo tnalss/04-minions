@@ -13,5 +13,3 @@ float와 transition에 대한 이해.
 - css3
 
 
-## 사이트맵
-![사이트맵](https://picsum.photos/id/1000/600/400)
