@@ -33,8 +33,9 @@ html {
 	
 	left:50%;
 	top: 50%;
-	margin-left: -515px;
-	margin-top: -215px;
+	/* margin-left : -515px; */
+	margin-left: calc( -1031px / 2);
+	margin-top: calc( -431px / 2);
 	
 }
 #close{
