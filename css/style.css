@@ -12,6 +12,42 @@ html {
 	font-size: 20px;
 	scroll-behavior:smooth;
 }
+
+/************pop-up*****************/
+#popup{
+	display:none;
+	position : fixed;
+	left:0;
+	top:0;
+	width: 100vw; /*viewport width*/
+	height:100vh; /*viewport height*/
+	z-index:9999;
+}
+#popup.bg{
+	background-color: rgba(0,0,0,.3); /*검정색 30% 투명도 */
+}
+.popcontent{
+	position: absolute;
+	width: 1031px;
+	height: 431px;
+	
+	left:50%;
+	top: 50%;
+	margin-left: -515px;
+	margin-top: -215px;
+	
+}
+#close{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color : black;
+	color: white;
+	border-radius: 50%;
+	right: 28%;
+	top:30%;
+	font-size: 3rem;
+}
 .construction{
 	text-align:center;
 }
@@ -25,6 +61,7 @@ body {
 	color: #222;
 	line-height: 1.5;
 	letter-spacing: -1px;
+	overflow:hidden;
 }
 
 .d-none {
@@ -444,12 +481,15 @@ footer .container {
 	text-align: left;
 }
 /**********************login.html************************/
-
+.login-container{
+	background-color: var(--fourth-color);
+	padding:3rem;
+}
 
 .login-table,.find-table{
 	width:900px;
 
-	background-color: var(--fourth-color);
+	/* background-color: var(--fourth-color); */
 }
 .login-table th,.find-table th{
 	color:white;
