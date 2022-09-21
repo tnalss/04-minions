@@ -166,9 +166,7 @@ a {
 	margin-left: calc(-378px/ 2);
 }
 
-.characters:hover {
-	display: none;
-}
+
 /*******************section*********************/
 .mt-100 {
 	margin-top: 100px !important;
@@ -261,7 +259,7 @@ article {
 .carousel div img {
 	float: left;
 }
-/***carousel post***/
+/*** carousel post***/
 
 #posts{
 	height: 300px;

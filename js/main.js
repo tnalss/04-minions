@@ -31,14 +31,12 @@ window.addEventListener("DOMContentLoaded", function() {
 	})
 	
 	PREV.addEventListener("click", function(){
-		
+		postIndex--;
 		if(postIndex<0) postIndex=2;		
 		let coords = -920 * postIndex + "px";
 		POSTS.style.marginLeft=coords;
-		postIndex--;
+
 				
 	})
-	
 
-	
 })
