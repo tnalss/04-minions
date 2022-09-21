@@ -234,6 +234,7 @@ article {
 .container-fluid {
 	background-color: #446286;
 	position: relative;
+		padding: 1rem 0;
 }
 
 .prev {
@@ -249,13 +250,26 @@ article {
 
 .carousel {
 	max-width: 920px;
-	margin: 0 auto;
+	height: 300px;
+	overflow:hidden;
+	margin: 1rem auto;
 	overflow: hidden;
 	clear: both;
-	padding: 1rem;
+
 }
 
 .carousel div img {
+	float: left;
+}
+/***carousel post***/
+
+#posts{
+	height: 300px;
+	width: 300%;
+	transition: all ease-in-out 1s;
+}
+.post{
+	width: 920px;
 	float: left;
 }
 
