@@ -62,6 +62,9 @@ body {
 	color: #222;
 	line-height: 1.5;
 	letter-spacing: -1px;
+	
+}
+#index-body{
 	overflow:hidden;
 }
 
